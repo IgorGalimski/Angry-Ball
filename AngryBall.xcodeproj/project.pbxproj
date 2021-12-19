@@ -13,8 +13,8 @@
 		736BC98C2587949F00A7D079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736BC98A2587949F00A7D079 /* Main.storyboard */; };
 		736BC98E2587949F00A7D079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736BC98D2587949F00A7D079 /* Assets.xcassets */; };
 		736BC9912587949F00A7D079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736BC98F2587949F00A7D079 /* LaunchScreen.storyboard */; };
-		F871F5CB276F51A00027228C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F871F5CA276F51A00027228C /* GameScene.swift */; };
-		F871F5CD276F521C0027228C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F871F5CC276F521C0027228C /* GameScene.sks */; };
+		73C9743A25879B020007F209 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 73C9743825879B020007F209 /* GameScene.sks */; };
+		73C9743B25879B020007F209 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C9743925879B020007F209 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		736BC98D2587949F00A7D079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		736BC9902587949F00A7D079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		736BC9922587949F00A7D079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F871F5CA276F51A00027228C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		F871F5CC276F521C0027228C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		73C9743825879B020007F209 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		73C9743925879B020007F209 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 		736BC9832587949F00A7D079 /* AngryBall */ = {
 			isa = PBXGroup;
 			children = (
-				F871F5C7276F515C0027228C /* GameScene */,
+				73C9743725879B020007F209 /* GameScene */,
 				736BC9842587949F00A7D079 /* AppDelegate.swift */,
 				736BC9862587949F00A7D079 /* SceneDelegate.swift */,
 				736BC9882587949F00A7D079 /* ViewController.swift */,
@@ -72,11 +72,11 @@
 			path = AngryBall;
 			sourceTree = "<group>";
 		};
-		F871F5C7276F515C0027228C /* GameScene */ = {
+		73C9743725879B020007F209 /* GameScene */ = {
 			isa = PBXGroup;
 			children = (
-				F871F5CA276F51A00027228C /* GameScene.swift */,
-				F871F5CC276F521C0027228C /* GameScene.sks */,
+				73C9743825879B020007F209 /* GameScene.sks */,
+				73C9743925879B020007F209 /* GameScene.swift */,
 			);
 			path = GameScene;
 			sourceTree = "<group>";
@@ -138,7 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F871F5CD276F521C0027228C /* GameScene.sks in Resources */,
+				73C9743A25879B020007F209 /* GameScene.sks in Resources */,
 				736BC9912587949F00A7D079 /* LaunchScreen.storyboard in Resources */,
 				736BC98E2587949F00A7D079 /* Assets.xcassets in Resources */,
 				736BC98C2587949F00A7D079 /* Main.storyboard in Resources */,
@@ -154,7 +154,7 @@
 			files = (
 				736BC9892587949F00A7D079 /* ViewController.swift in Sources */,
 				736BC9852587949F00A7D079 /* AppDelegate.swift in Sources */,
-				F871F5CB276F51A00027228C /* GameScene.swift in Sources */,
+				73C9743B25879B020007F209 /* GameScene.swift in Sources */,
 				736BC9872587949F00A7D079 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +302,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX4395UWKU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AngryBall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,9 +323,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GX4395UWKU;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AngryBall/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
